@@ -1,10 +1,11 @@
 import React from "react";
+import '../css/navigation.css'
 
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
-        <div className="navbar-header">
+        <div className="navbar-header nav-header">
           <button
             type="button"
             className="navbar-toggle collapsed"
@@ -17,9 +18,11 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            <img alt="Logo" src="./img/logo.jpg" />
-          </a>{" "}
+          <div className="nav-logo-div">
+          <a className="navbar-brand page-scroll nav-logo" href="#page-top">
+            <img alt="Logo" src="./img/logo.jpg" className='nav-logo-img' />
+          </a> 
+            </div>
         </div>
 
         <div

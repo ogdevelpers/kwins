@@ -1,0 +1,29 @@
+.nav-header{ 
+    padding:0;
+    margin:0; 
+
+}
+
+.navbar-brand{
+    padding:0; 
+}
+
+.nav-logo-div{ 
+    display:flex; 
+    position:relative;
+}
+ 
+.nav-logo{
+    display:inline-block !important;   
+    padding:0;
+    margin:0;  
+}
+
+.nav-logo-img { 
+    position:absolute;
+    top:0;
+  display: inline-block;
+  object-fit: cover;
+  height: 63px;       /* Ensure it fits inside the navbar */
+  width: 150px;       
+}

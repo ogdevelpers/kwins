@@ -1,8 +1,9 @@
 import React from "react";
+import '../css/header.css'
 
 export const Header = (props) => {
   return (
-    <header id="header">
+    <header id="header" className='header'>
       <div className="intro">
         <div className="overlay">
           <div className="container">
